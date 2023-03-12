@@ -1,0 +1,22 @@
+{
+    "spritesheet": "resources/map/forest/combined.png",
+    "sprites": {
+        "death": {
+            "default_animation": "death.idle.right",
+            "animations": [
+                {
+                    "id": "death.idle.right",
+                    "animation_frames": [ 0 ],
+                    "animation": [
+                        {
+                            "width": 16,
+                            "height": 16,
+                            "x_pos": 1616,
+                            "y_pos": 736
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

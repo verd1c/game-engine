@@ -1,0 +1,388 @@
+{
+  "spritesheet": "resources/sprites/zombie.png",
+  "sprites": {
+    "zombie": {
+      "default_animation": "zombie.run.right",
+      "animations": [
+        {
+          "id": "zombie.idle.right",
+          "animation_frames": [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 0,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 32,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 64,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 96,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 128,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 224,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "zombie.idle.left",
+          "animation_frames": [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 0,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 32,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 64,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 96,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 128,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 0
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 224,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "zombie.run.left",
+          "animation_frames": [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 384,
+              "y_pos": 256
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 352,
+              "y_pos": 256
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 320,
+              "y_pos": 256
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 288,
+              "y_pos": 256
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 256,
+              "y_pos": 256
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 224,
+              "y_pos": 256
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 256
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 256
+            }
+          ]
+        },
+        {
+          "id": "zombie.run.right",
+          "animation_frames": [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 0,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 32,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 64,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 96,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 128,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 224,
+              "y_pos": 64
+            }
+          ]
+        },
+        {
+          "id": "zombie.death",
+          "animation_frames": [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 0,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 32,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 64,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 96,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 128,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 224,
+              "y_pos": 160
+            }
+          ]
+        },
+        {
+          "id": "zombie.damage.left",
+          "animation_frames": [ 0, 1, 2, 3, 4, 3 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 384,
+              "y_pos": 352
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 352,
+              "y_pos": 352
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 320,
+              "y_pos": 352
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 288,
+              "y_pos": 352
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 256,
+              "y_pos": 352
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 224,
+              "y_pos": 352
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 352
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 352
+            }
+          ]
+        },
+        {
+          "id": "zombie.damage.right",
+          "animation_frames": [ 0, 1, 2, 3, 4, 3 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 0,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 32,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 64,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 96,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 128,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 160
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "x_pos": 224,
+              "y_pos": 160
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

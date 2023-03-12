@@ -1,0 +1,63 @@
+{
+  "spritesheet": "resources/sprites/fire_knight_basic_SpriteSheet_224x112.png",
+  "sprites": {
+    "elemental_knight": {
+      "default_animation": "elementalknight.run",
+      "animations": [
+        {
+          "id": "elementalknight.run",
+          "animation": [
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 112
+            },
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 224
+            },
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 336
+            },
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 448
+            },
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 560
+            },
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 672
+            },
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 784
+            },
+            {
+              "width": 224,
+              "height": 112,
+              "x_pos": 0,
+              "y_pos": 896
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

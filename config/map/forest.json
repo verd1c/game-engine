@@ -1,0 +1,301 @@
+{
+  "map": [
+      {
+          "path": "resources/map/forest/second_map_FrontGround.csv"
+      },
+      {
+          "path": "resources/map/forest/second_map_Ground.csv"
+      }
+  ],
+  "background": [
+      {
+          "path": "resources/map/forest/second_map_Sky.csv"
+      },
+      {
+          "path": "resources/map/forest/second_map_Clouds.csv"
+      },
+      {
+          "path": "resources/map/forest/second_map_Mountains.csv"
+      },
+      {
+          "path": "resources/map/forest/second_map_Background.csv"
+      },
+      {
+          "path": "resources/map/forest/second_map_TreesBackground.csv"
+      }
+  ],
+  "tiles": {
+      "path": "resources/map/forest/combined.png",
+      "width": 16,
+      "height": 16
+  },
+  "sprites": {
+      "path": "config/sprites/sprites.json"
+  },
+  "objects": {
+      "path": "resources/map/forest/second_map_Objects.csv",
+      "bindings": [
+          {
+              "external_name": "coin",
+              "health": 2,
+              "external_path": "config/sprites/coin.json",
+              "has_gravity": false,
+              "is_playable": false,
+              "is_external": true,
+              "name": "coin",
+              "tile": 4111
+          },
+          {
+              "external_name": "pipe",
+              "health": 3,
+              "external_path": "config/sprites/pipe.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "pipe",
+              "tile": 5442
+          },
+          {
+              "external_name": "pipe",
+              "health": 3,
+              "external_path": "config/sprites/pipe.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "pipe",
+              "tile": 5447
+          },
+          {
+              "external_name": "pipe",
+              "health": 3,
+              "external_path": "config/sprites/pipe.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "pipe",
+              "tile": 5740
+          },
+          {
+              "external_name": "ladder",
+              "health": 3,
+              "external_path": "config/sprites/ladder.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "ladder",
+              "tile": 7352
+          },
+          {
+              "external_name": "zombie",
+              "health": 3,
+              "external_path": "config/sprites/zombie.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "zombie",
+              "tile": 5445
+          },
+          {
+              "external_name": "turtle",
+              "health": 3,
+              "external_path": "config/sprites/enemies.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "turtle",
+              "tile": 4406
+          },
+          {
+              "external_name": "shell",
+              "health": 3,
+              "external_path": "config/sprites/shell.json",
+              "is_playable": true,
+              "is_external": true,
+              "name": "shell",
+              "tile": 123231321342
+          },
+          {
+              "external_name": "goomba",
+              "health": 3,
+              "external_path": "config/sprites/enemies.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "goomba",
+              "tile": 4404
+          },
+          {
+              "external_name": "piranha",
+              "health": 1000,
+              "external_path": "config/sprites/enemies.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "piranha",
+              "tile": 4405
+          },
+          {
+              "external_name": "waterfall",
+              "health": 3,
+              "external_path": "config/sprites/waterfall.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "waterfall",
+              "tile": 6028
+          },
+          {
+              "external_name": "finishwaterfall",
+              "health": 3,
+              "external_path": "config/sprites/finishwaterfall.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "finishwaterfall",
+              "tile": 4259
+          },
+          {
+              "external_name": "finishsign",
+              "health": 3,
+              "external_path": "config/sprites/finishsign.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "finishsign",
+              "tile": 6761
+          },
+          {
+              "external_name": "death",
+              "health": 3,
+              "external_path": "config/sprites/skull.json",
+              "is_playable": false,
+              "is_external": true,
+              "name": "death",
+              "tile": 3814
+          },
+          {
+              "external_name": "mariosmall",
+              "health": 500,
+              "external_path": "config/sprites/mario.json",
+              "is_external": true,
+              "is_playable": true,
+              "name": "mariosmall",
+              "tile": 5731
+          },
+          {
+              "external_name": "herochar",
+              "health": 500,
+              "external_path": "config/sprites/herochar.json",
+              "is_external": true,
+              "is_playable": true,
+              "name": "herochar",
+              "tile": 9999999
+          }
+      ]
+  },
+  "teleports": [
+      {
+          "from": 0,
+          "to": 0
+      }
+  ],
+  "grid": {
+      "solid": [
+          701,
+          702,
+          850,
+          4934,
+          4787,
+          4788,
+          4807,
+          4659,
+          693,
+          1136,
+          1137,
+          1138,
+          694,
+          842,
+          692,
+          840,
+          1139,
+          3959,
+          3960,
+          3951,
+          3961,
+          3962,
+          3817,
+          5736,
+          5884,
+          3953,
+          101,
+          103,
+          399,
+          248,
+          100,
+          398,
+          249,
+          250,
+          102,
+          545,
+          396,
+          397,
+          546,
+          544,
+          4100,
+          547,
+          701,
+          702,
+          850,
+          4934,
+          4787,
+          4788,
+          4807,
+          5447,
+          5448,
+          5595,
+          6039,
+          6040,
+          5596,
+          4659,
+          693,
+          1136,
+          1137,
+          1138,
+          694,
+          842,
+          692,
+          840,
+          1139,
+          3959,
+          3960,
+          3951,
+          3961,
+          3962,
+          3817,
+          5736,
+          5737,
+          5740,
+          5888,
+          5884,
+          3953,
+          101,
+          103,
+          399,
+          248,
+          100,
+          398,
+          249,
+          250,
+          102,
+          545,
+          396,
+          397,
+          546,
+          544,
+          4100,
+          547,
+          988,
+          989,
+          990
+      ],
+      "empty": [
+          137,
+          164,
+          38,
+          58,
+          6909
+      ],
+      "top_solid": [
+
+      ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "spritesheet": "resources/map/forest/combined.png",
+  "sprites": {
+    "waterfall": {
+      "default_animation": "waterfall.idle.right",
+      "animations": [
+        {
+          "id": "waterfall.idle.right",
+          "animation_frames": [ 0, 1, 2, 3, 4 ],
+          "delay": 500,
+          "animation": [
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 0
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 160
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 320
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 480
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 640
+            }
+          ]
+        },
+        {
+          "id": "waterfall.idle.left",
+          "animation_frames": [ 0, 1, 2, 3, 4 ],
+          "delay": 170,
+          "animation": [
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 0
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 160
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 320
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 480
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 640
+            }
+          ]
+        },
+        {
+          "id": "waterfall.run.left",
+          "animation_frames": [ 0, 1, 2, 3, 4 ],
+          "delay": 170,
+          "animation": [
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 0
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 160
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 320
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 480
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 640
+            }
+          ]
+        },
+        {
+          "id": "waterfall.run.right",
+          "animation_frames": [ 0, 1, 2, 3, 4 ],
+          "delay": 170,
+          "animation": [
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 0
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 160
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 320
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 480
+            },
+            {
+              "width": 400,
+              "height": 160,
+              "x_pos": 800,
+              "y_pos": 640
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

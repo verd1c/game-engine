@@ -1,0 +1,158 @@
+{
+    "spritesheet": "resources/map/forest/combined.png",
+    "sprites": {
+        "finishwaterfall": {
+            "default_animation": "finishwaterfall.idle.right",
+            "animations": [
+                {
+                    "id": "finishwaterfall.idle.right",
+                    "animation_frames": [ 0, 1, 2, 3, 4],
+                    "delay": 500,
+                    "animation": [
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 400
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 464
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 528
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 592
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 656
+                        }
+                    ]
+                },
+                {
+                    "id": "finishwaterfall.idle.left",
+                    "animation_frames": [ 0, 1, 2, 3, 4 ],
+                    "delay": 170,
+                    "animation": [
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 400
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 464
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 528
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 592
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 656
+                        }
+                    ]
+                },
+                {
+                    "id": "finishwaterfall.run.left",
+                    "animation_frames": [ 0, 1, 2, 3, 4 ],
+                    "delay": 170,
+                    "animation": [
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 400
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 464
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 528
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 592
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 656
+                        }
+                    ]
+                },
+                {
+                    "id": "finishwaterfall.run.right",
+                    "animation_frames": [ 0, 1, 2, 3, 4 ],
+                    "delay": 170,
+                    "animation": [
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 400
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 464
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 528
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 592
+                        },
+                        {
+                            "width": 48,
+                            "height": 64,
+                            "x_pos": 1600,
+                            "y_pos": 656
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

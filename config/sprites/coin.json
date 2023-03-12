@@ -1,0 +1,162 @@
+{
+  "spritesheet": "resources/map/map_one/DirtBrick_Assets_V5.png",
+  "sprites": {
+    "coin": {
+      "default_animation": "coin.idle.right",
+      "animations": [
+        {
+          "id": "coin.idle.right",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "delay": 170,
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 32
+            }
+          ]
+        },
+        {
+          "id": "coin.idle.left",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "delay": 170,
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 32
+            }
+          ]
+        },
+
+        {
+          "id": "coin.run.left",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "delay": 300,
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 32
+            }
+          ]
+        },
+
+        {
+          "id": "coin.run.right",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "delay": 300,
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 32
+            }
+          ]
+        },
+        {
+          "id": "coin.damage.right",
+          "animation_frames": [ 0 ],
+          "delay": 170,
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 32
+            }
+          ]
+        },
+        {
+          "id": "coin.damage.left",
+          "animation_frames": [ 0 ],
+          "delay": 170,
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 32
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+    "sprites": [
+        {
+            "mario": {
+                "path": "resources/sprites/marioi.png",
+                "spawnX": 0,
+                "spawnY": 91,
+                "animations": [
+                    {
+                        "small_mario": {
+                            "left1": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 6,
+                                "y_pos": 25
+                            },
+                            "left2": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 37,
+                                "y_pos": 25
+                            },
+                            "left3": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 67,
+                                "y_pos": 25
+                            },
+                            "left_jump1": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 37,
+                                "y_pos": 0
+                            },
+                            "left_jump2": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 6,
+                                "y_pos": 0
+                            },
+                            "left_stand": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 97,
+                                "y_pos": 25
+                            },
+                            "right_stand": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 127,
+                                "y_pos": 25
+                            },
+                            "right1": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 215,
+                                "y_pos": 0
+                            },
+                            "right2": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 244,
+                                "y_pos": 0
+                            },
+                            "right3": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 275,
+                                "y_pos": 0
+                            },
+                            "right_jump1": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 67,
+                                "y_pos": 0
+                            },
+                            "right_jump2": {
+                                "width": 16,
+                                "height": 16,
+                                "x_pos": 98,
+                                "y_pos": 0
+                            }
+                        },
+                        "big_mario": {
+                            "left1": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 6,
+                                "y_pos": 88
+                            },
+                            "left2": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 36,
+                                "y_pos": 88
+                            },
+                            "left3": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 66,
+                                "y_pos": 88
+                            },
+                            "left_jump1": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 147,
+                                "y_pos": 88
+                            },
+                            "left_jump2": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 197,
+                                "y_pos": 88
+                            },
+                            "left_stand": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 96,
+                                "y_pos": 88
+                            },
+                            "right_stand": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 185,
+                                "y_pos": 51
+                            },
+                            "right1": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 215,
+                                "y_pos": 51
+                            },
+                            "right2": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 244,
+                                "y_pos": 51
+                            },
+                            "right3": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 275,
+                                "y_pos": 51
+                            },
+                            "right_jump1": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 135,
+                                "y_pos": 51
+                            },
+                            "right_jump2": {
+                                "width": 16,
+                                "height": 32,
+                                "x_pos": 83,
+                                "y_pos": 51
+                            }
+                        }
+                    }
+                ]
+            },
+            "enemy_turtle": {
+                "path": "resources/sprites/enemies.png",
+                "spawnX": 43,
+                "spawnY": 98,
+                "animations": [
+                    {
+                        "left1": {
+                            "width": 16,
+                            "height": 23,
+                            "x_pos": 212,
+                            "y_pos": 58
+                        },
+                        "left2": {
+                            "width": 16,
+                            "height": 23,
+                            "x_pos": 242,
+                            "y_pos": 58
+                        },
+                        "left_wings": {
+                            "width": 16,
+                            "height": 23,
+                            "x_pos": 182,
+                            "y_pos": 58
+                        },
+                        "right1": {
+                            "width": 16,
+                            "height": 23,
+                            "x_pos": 179,
+                            "y_pos": 28
+                        },
+                        "right2": {
+                            "width": 16,
+                            "height": 23,
+                            "x_pos": 209,
+                            "y_pos": 28
+                        },
+                        "right_wings": {
+                            "width": 16,
+                            "height": 23,
+                            "x_pos": 239,
+                            "y_pos": 28
+                        }
+                    }
+                ]
+            },
+            "enemy_mushroom": {
+                "path": "resources/sprites/enemies.png",
+                "spawnX": 82,
+                "spawnY": 91,
+                "animations": [
+                    {
+                        "walk1": {
+                            "width": 16,
+                            "height": 18,
+                            "x_pos": 6,
+                            "y_pos": 0
+                        },
+                        "walk2": {
+                            "width": 16,
+                            "height": 18,
+                            "x_pos": 38,
+                            "y_pos": 0
+                        },
+                        "smashed": {
+                            "width": 16,
+                            "height": 18,
+                            "x_pos": 182,
+                            "y_pos": 0
+                        }
+                    }
+                ]
+            },
+            "enemy_piranha_plant": {
+                "path": "resources/sprites/enemies.png",
+                "spawnX": 168,
+                "spawnY": 91,
+                "animations": [
+                    {
+                        "state1": {
+                            "width": 16,
+                            "height": 24,
+                            "x_pos": 126,
+                            "y_pos": 141
+                        },
+                        "state2": {
+                            "width": 16,
+                            "height": 24,
+                            "x_pos": 126,
+                            "y_pos": 169
+                        }
+                    }
+                ]
+            },
+            "enemy_bird": {
+                "path": "resources/sprites/enemies.png",
+                "spawnX": 53,
+                "spawnY": 83,
+                "animations": [
+                    {
+                        "left1": {
+                            "width": 16,
+                            "height": 16,
+                            "x_pos": 98,
+                            "y_pos": 114
+                        },
+                        "left2": {
+                            "width": 16,
+                            "height": 16,
+                            "x_pos": 127,
+                            "y_pos": 114
+                        },
+                        "right1": {
+                            "width": 16,
+                            "height": 16,
+                            "x_pos": 158,
+                            "y_pos": 114
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

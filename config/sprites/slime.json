@@ -1,0 +1,358 @@
+{
+  "spritesheet": "resources/sprites/slime.png",
+  "sprites": {
+    "slime": {
+      "default_animation": "slime.run.right",
+      "animations": [
+        {
+          "id": "slime.run.right",
+          "animation_frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 0,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 16,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 32,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 48,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 64,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 80,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 96,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 112,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 128,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 144,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 176,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 208,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 222,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "slime.run.left",
+          "animation_frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 0,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 16,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 32,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 48,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 64,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 80,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 96,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 112,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 128,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 144,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 160,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 176,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 192,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 208,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 222,
+              "y_pos": 80
+            }
+          ]
+        },
+        {
+          "id": "slime.idle.left",
+          "animation_frames": [ 0, 1, 2, 3, 4 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 48
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 48
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 48
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 176,
+              "y_pos": 48
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 160,
+              "y_pos": 48
+            }
+          ]
+        },
+        {
+          "id": "slime.idle.right",
+          "animation_frames": [ 0, 1, 2, 3, 4 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 0,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 16,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 32,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 48,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 64,
+              "y_pos": 128
+            }
+          ]
+        },
+        {
+          "id": "slime.death",
+          "animation_frames": [ 0, 1, 2, 3, 4 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 176,
+              "y_pos": 32
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 160,
+              "y_pos": 32
+            }
+          ]
+        },
+        {
+          "id": "slime.damage.left",
+          "animation_frames": [ 0, 1, 2 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 0,
+              "y_pos": 144
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 16,
+              "y_pos": 144
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 32,
+              "y_pos": 144
+            }
+          ]
+        },
+        {
+          "id": "slime.damage.right",
+          "animation_frames": [ 0, 1, 2 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 64
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 64
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 64
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

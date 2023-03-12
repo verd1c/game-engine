@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\config">
+      <UniqueIdentifier>{bedf68fd-1262-4bbe-a09a-d6941c0be982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources">
+      <UniqueIdentifier>{3c4d557d-afae-493c-a5d1-0b7d0410861c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\map">
+      <UniqueIdentifier>{df7c846f-2067-45dc-9b37-ac57414420d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\config\map">
+      <UniqueIdentifier>{6cf1e3a0-1021-4d83-b2d7-132fab6a4877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\config\sprite">
+      <UniqueIdentifier>{b35328be-14ce-47ee-a9ca-8959ba4b0700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\sprite">
+      <UniqueIdentifier>{05b05f3c-c1d9-4b5a-a19d-af2865c841c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Display">
+      <UniqueIdentifier>{a1e4c177-8a72-496a-acf2-01268d525960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{5c4a690d-5933-4010-be31-ca7b9eca3ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{ef2a7d53-5365-4c32-ba16-890a1135fc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{52a6d71a-578a-446c-87f5-980dfe89a0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{f3c247be-e20b-4cfa-a8a8-b933ae805d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handlers">
+      <UniqueIdentifier>{d5601eec-b1b7-4225-b642-55061a8bfa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{91a07679-7cc3-47a2-88a0-788eb8967059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{c3fd4eb4-63ea-4cd1-b939-cc5e9ed97ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{739e9e99-cf0e-4089-b734-94ab180ed9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{a6b5818d-b438-449f-a28d-156813c6506c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{96bce52e-ae14-4d8f-8d97-c543e652b485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Physics">
+      <UniqueIdentifier>{1b8688d8-105c-4e82-b725-83dea4883c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Animations">
+      <UniqueIdentifier>{2674f014-5a24-4391-bdd0-7b3d12d4e961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Animations">
+      <UniqueIdentifier>{0937efa8-abe9-43b3-9447-7fdec0061b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\map\test_map">
+      <UniqueIdentifier>{d9e07dda-0f0e-485b-9420-60cd80aa1777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\map\forest">
+      <UniqueIdentifier>{36793577-652d-4b20-80bb-bdbc1c0ba3a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\handlers\RenderHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handlers\InputHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\display\DisplayTools.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\App.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Game.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Map.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config\Config.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\csv_parser.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Structs.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Sprite.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handlers\PhysicsHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\physics\Gravity.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\physics\MotionQuantizer.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handlers\AIHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\animations\Film.cpp">
+      <Filter>Source Files\Engine\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\animations\Animator.cpp">
+      <Filter>Source Files\Engine\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\animations\Animation.cpp">
+      <Filter>Source Files\Engine\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="include\engine\Animations\AnimatorManager.cpp">
+      <Filter>Source Files\Engine\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handlers\CollisionsHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\Audio.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="include\engine\Animations\SystemClock.cpp">
+      <Filter>Source Files\Engine\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handlers\AnimationHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\sprites\PlayableCharacter.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="config\game.json">
+      <Filter>Resource Files\config</Filter>
+    </None>
+    <None Include="config\map\first_stage.json">
+      <Filter>Resource Files\config\map</Filter>
+    </None>
+    <None Include="resources\map\first_stage_Background.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\first_stage_Blocks.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\first_stage_Castle.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\first_stage_Clouds.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\first_stage_Coins.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\first_stage_Foreground.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\first_stage_Sea.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="config\sprites\enemies.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\mario.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\map\final_map.json">
+      <Filter>Resource Files\config\map</Filter>
+    </None>
+    <None Include="config\map\first_map.json">
+      <Filter>Resource Files\config\map</Filter>
+    </None>
+    <None Include="resources\map\final_map\final_map_Front.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\final_map\final_map_Ground.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\final_map\final_map_Objects.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\final_map\final_map_Sky.csv">
+      <Filter>Resource Files\resources\map</Filter>
+    </None>
+    <None Include="resources\map\test_map\test_map_Background.csv">
+      <Filter>Resource Files\resources\map\test_map</Filter>
+    </None>
+    <None Include="resources\map\test_map\test_map_Ground.csv">
+      <Filter>Resource Files\resources\map\test_map</Filter>
+    </None>
+    <None Include="resources\map\test_map\test_map_Objects.csv">
+      <Filter>Resource Files\resources\map\test_map</Filter>
+    </None>
+    <None Include="resources\map\test_map\test_map_Sky.csv">
+      <Filter>Resource Files\resources\map\test_map</Filter>
+    </None>
+    <None Include="config\map\test_map.json">
+      <Filter>Resource Files\config\map</Filter>
+    </None>
+    <None Include="config\sprites\elemental_knight.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\herochar.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\slime.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\zombie.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\map\map_one.json">
+      <Filter>Resource Files\config\map</Filter>
+    </None>
+    <None Include="config\sprites\pipe.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\flag.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\death.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\coin.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\chest.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\hppotion.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\map\forest.json">
+      <Filter>Resource Files\config\map</Filter>
+    </None>
+    <None Include="resources\map\forest\forest_Background_1.csv">
+      <Filter>Resource Files\resources\map\forest</Filter>
+    </None>
+    <None Include="resources\map\forest\forest_Background_2.csv">
+      <Filter>Resource Files\resources\map\forest</Filter>
+    </None>
+    <None Include="resources\map\forest\forest_Background3.csv">
+      <Filter>Resource Files\resources\map\forest</Filter>
+    </None>
+    <None Include="resources\map\forest\forest_Ground.csv">
+      <Filter>Resource Files\resources\map\forest</Filter>
+    </None>
+    <None Include="resources\map\forest\forest_Objects.csv">
+      <Filter>Resource Files\resources\map\forest</Filter>
+    </None>
+    <None Include="config\sprites\shell.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\waterfall.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\finishwaterfall.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\ladder.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+    <None Include="config\sprites\finishsign.json">
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+<<<<<<< Updated upstream
+    <None Include="config\sprites\skull.json">
+=======
+    <None Include="config\sprites\boomerang.json">
+>>>>>>> Stashed changes
+      <Filter>Resource Files\config\sprite</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\display\DisplayTools.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Game.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Map.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Structs.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\App.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tools\csv_parser.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config\Config.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tools\json.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Sprite.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Grid.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\Audio.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Physics.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Animations\Film.h">
+      <Filter>Header Files\Engine\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Animations\Animation.h">
+      <Filter>Header Files\Engine\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Animations\Animator.h">
+      <Filter>Header Files\Engine\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Animations\AnimatorManager.h">
+      <Filter>Header Files\Engine\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\Animations\SystemClock.h">
+      <Filter>Header Files\Engine\Animations</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\map\super_mario_sprite_sheet.png">
+      <Filter>Resource Files\resources\map</Filter>
+    </Image>
+    <Image Include="resources\sprites\enemies.png">
+      <Filter>Resource Files\resources\sprite</Filter>
+    </Image>
+    <Image Include="resources\sprites\mario_sprites.png">
+      <Filter>Resource Files\resources\sprite</Filter>
+    </Image>
+    <Image Include="resources\sprites\marioi.png">
+      <Filter>Resource Files\resources\sprite</Filter>
+    </Image>
+    <Image Include="resources\map\final_map\DirtBrick_Assets_V5.png">
+      <Filter>Resource Files\resources\map</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{42cd3988-d437-4a1e-aa7c-b380d2ecb1b0}</ProjectGuid>
+    <RootNamespace>supermariogame2D</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <IncludePath>C:\Users\kokol\source\repos\kokol16\super_mario_game_2D\include;C:\Users\kokol\source\repos\kokol16\super_mario_game_2D\include;C:\Users\Jas\source\repos\super_mario_game_2D\include;C:\Users\Jason\source\repos\super_mario_game_2D\src;C:\Users\Jason\source\repos\super_mario_game_2D\include;$(IncludePath)</IncludePath>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <IncludePath>C:\Users\kokol\source\repos\kokol16\super_mario_game_2D\include;C:\Users\Jas\source\repos\super_mario_game_2D\include;C:\Users\kokol\source\repos\kokol16\super_mario_game_2D\include</IncludePath>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <IncludePath>C:\Users\ORamaVR Test PC\Documents\GitHub\super_mario_game_2D\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <IncludePath>C:\Users\kokol\source\repos\kokol16\super_mario_game_2D\include;C:\Users\Jas\source\repos\super_mario_game_2D\include;C:\Users\Jason\source\repos\super_mario_game_2D\src;C:\Users\Jason\source\repos\super_mario_game_2D\include;$(IncludePath)</IncludePath>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="include\engine\Animations\AnimatorManager.cpp" />
+    <ClCompile Include="include\engine\Animations\SystemClock.cpp" />
+    <ClCompile Include="src\config\Config.cpp" />
+    <ClCompile Include="src\display\DisplayTools.cpp" />
+    <ClCompile Include="src\engine\animations\Animation.cpp" />
+    <ClCompile Include="src\engine\animations\Animator.cpp" />
+    <ClCompile Include="src\engine\animations\Film.cpp" />
+    <ClCompile Include="src\engine\Game.cpp" />
+    <ClCompile Include="src\engine\Map.cpp" />
+    <ClCompile Include="src\engine\physics\Gravity.cpp" />
+    <ClCompile Include="src\engine\physics\MotionQuantizer.cpp" />
+    <ClCompile Include="src\engine\Sprite.cpp" />
+    <ClCompile Include="src\engine\sprites\PlayableCharacter.cpp" />
+    <ClCompile Include="src\engine\Structs.cpp" />
+    <ClCompile Include="src\game\App.cpp" />
+    <ClCompile Include="src\game\Audio.cpp" />
+    <ClCompile Include="src\handlers\AIHandler.cpp" />
+    <ClCompile Include="src\handlers\AnimationHandler.cpp" />
+    <ClCompile Include="src\handlers\CollisionsHandler.cpp" />
+    <ClCompile Include="src\handlers\InputHandler.cpp" />
+    <ClCompile Include="src\handlers\PhysicsHandler.cpp" />
+    <ClCompile Include="src\handlers\RenderHandler.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\tools\csv_parser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\game.json" />
+    <None Include="config\map\final_map.json" />
+    <None Include="config\map\first_map.json" />
+    <None Include="config\map\first_stage.json" />
+    <None Include="config\map\forest.json" />
+    <None Include="config\map\map_one.json" />
+    <None Include="config\map\test_map.json" />
+    <None Include="config\sprites\boomerang.json" />
+    <None Include="config\sprites\chest.json" />
+    <None Include="config\sprites\coin.json" />
+    <None Include="config\sprites\death.json" />
+    <None Include="config\sprites\elemental_knight.json" />
+    <None Include="config\sprites\enemies.json" />
+    <None Include="config\sprites\finishsign.json" />
+    <None Include="config\sprites\finishwaterfall.json" />
+    <None Include="config\sprites\flag.json" />
+    <None Include="config\sprites\herochar.json" />
+    <None Include="config\sprites\hppotion.json" />
+    <None Include="config\sprites\ladder.json" />
+    <None Include="config\sprites\mario.json" />
+    <None Include="config\sprites\pipe.json" />
+    <None Include="config\sprites\shell.json" />
+    <None Include="config\sprites\skull.json" />
+    <None Include="config\sprites\slime.json" />
+    <None Include="config\sprites\waterfall.json" />
+    <None Include="config\sprites\zombie.json" />
+    <None Include="packages.config" />
+    <None Include="resources\map\final_map\final_map_Front.csv" />
+    <None Include="resources\map\final_map\final_map_Ground.csv" />
+    <None Include="resources\map\final_map\final_map_Objects.csv" />
+    <None Include="resources\map\final_map\final_map_Sky.csv" />
+    <None Include="resources\map\first_stage_Background.csv" />
+    <None Include="resources\map\first_stage_Blocks.csv" />
+    <None Include="resources\map\first_stage_Castle.csv" />
+    <None Include="resources\map\first_stage_Clouds.csv" />
+    <None Include="resources\map\first_stage_Coins.csv" />
+    <None Include="resources\map\first_stage_Foreground.csv" />
+    <None Include="resources\map\first_stage_Sea.csv" />
+    <None Include="resources\map\forest\forest_Background3.csv" />
+    <None Include="resources\map\forest\forest_Background_1.csv" />
+    <None Include="resources\map\forest\forest_Background_2.csv" />
+    <None Include="resources\map\forest\forest_Ground.csv" />
+    <None Include="resources\map\forest\forest_Objects.csv" />
+    <None Include="resources\map\test_map\test_map_Background.csv" />
+    <None Include="resources\map\test_map\test_map_Ground.csv" />
+    <None Include="resources\map\test_map\test_map_Objects.csv" />
+    <None Include="resources\map\test_map\test_map_Sky.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\config\Config.h" />
+    <ClInclude Include="include\display\DisplayTools.h" />
+    <ClInclude Include="include\engine\Animations\Animation.h" />
+    <ClInclude Include="include\engine\Animations\Animator.h" />
+    <ClInclude Include="include\engine\Animations\AnimatorManager.h" />
+    <ClInclude Include="include\engine\Animations\Film.h" />
+    <ClInclude Include="include\engine\Animations\SystemClock.h" />
+    <ClInclude Include="include\engine\Game.h" />
+    <ClInclude Include="include\engine\Grid.h" />
+    <ClInclude Include="include\engine\Map.h" />
+    <ClInclude Include="include\engine\Physics.h" />
+    <ClInclude Include="include\engine\Sprite.h" />
+    <ClInclude Include="include\engine\Structs.h" />
+    <ClInclude Include="include\game\App.h" />
+    <ClInclude Include="include\game\Audio.h" />
+    <ClInclude Include="include\tools\csv_parser.h" />
+    <ClInclude Include="include\tools\json.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\map\final_map\DirtBrick_Assets_V5.png" />
+    <Image Include="resources\map\super_mario_sprite_sheet.png" />
+    <Image Include="resources\sprites\enemies.png" />
+    <Image Include="resources\sprites\marioi.png" />
+    <Image Include="resources\sprites\mario_sprites.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\AllegroDeps.1.12.1\build\native\AllegroDeps.targets" Condition="Exists('packages\AllegroDeps.1.12.1\build\native\AllegroDeps.targets')" />
+    <Import Project="packages\Allegro.5.2.7.1\build\native\Allegro.targets" Condition="Exists('packages\Allegro.5.2.7.1\build\native\Allegro.targets')" />
+    <Import Project="packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets" Condition="Exists('packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\AllegroDeps.1.12.1\build\native\AllegroDeps.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\AllegroDeps.1.12.1\build\native\AllegroDeps.targets'))" />
+    <Error Condition="!Exists('packages\Allegro.5.2.7.1\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Allegro.5.2.7.1\build\native\Allegro.targets'))" />
+    <Error Condition="!Exists('packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,44 @@
+{
+  "map": [
+    {
+      "path": "resources/map/first_map/first_map_Sky.csv"
+    },
+    {
+      "path": "resources/map/first_map/first_map_Back.csv"
+    },
+    {
+      "path": "resources/map/first_map/first_map_Front.csv"
+    },
+    {
+      "path": "resources/map/first_map/first_map_Objects.csv"
+    }
+  ],
+  "tiles": {
+    "path": "resources/map/super_mario_sprite_sheet.png",
+    "width": 16,
+    "height": 16
+  },
+  "grid": {
+    "solid": [
+      78,
+      79,
+      80,
+      22,
+      4,
+      314,
+      170,
+      171,
+      195,
+      221
+    ],
+    "empty": [
+      344,
+      472,
+      473,
+      474,
+      498,
+      499,
+      500
+    ]
+  }
+}

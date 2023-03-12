@@ -1,0 +1,58 @@
+{
+  "spritesheet": "resources/sprites/characters.png",
+  "sprites": {
+    "shell": {
+      "default_animation": "shell.idle.right",
+      "animations": [
+        {
+          "id": "shell.idle.right",
+          "animation_frames": [ 0 ],
+          "animation": [
+            {
+              "width": 18,
+              "height": 17,
+              "x_pos": 143,
+              "y_pos": 214
+            }
+          ]
+        },
+        {
+          "id": "shell.run.right",
+          "animation_frames": [ 0 ],
+          "animation": [
+            {
+              "width": 18,
+              "height": 17,
+              "x_pos": 143,
+              "y_pos": 214
+            }
+          ]
+        },
+        {
+          "id": "shell.run.left",
+          "animation_frames": [ 0 ],
+          "animation": [
+            {
+              "width": 18,
+              "height": 17,
+              "x_pos": 143,
+              "y_pos": 214
+            }
+          ]
+        },
+        {
+          "id": "shell.idle.left",
+          "animation_frames": [ 0 ],
+          "animation": [
+            {
+              "width": 18,
+              "height": 17,
+              "x_pos": 143,
+              "y_pos": 214
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
