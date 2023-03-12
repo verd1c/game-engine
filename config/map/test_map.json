@@ -1,0 +1,136 @@
+{
+  "map": [
+    {
+      "path": "resources/map/test_map/test_map_Ground.csv"
+    }
+  ],
+  "background": [
+    {
+      "path": "resources/map/test_map/test_map_Sky.csv"
+    },
+    {
+      "path": "resources/map/test_map/test_map_Background.csv"
+    }
+  ],
+  "tiles": {
+    "path": "resources/map/super_mario_sprite_sheet.png",
+    "width": 16,
+    "height": 16
+  },
+  "sprites": {
+    "path": "config/sprites/sprites.json"
+  },
+  "objects": {
+    "path": "resources/map/test_map/test_map_Objects.csv",
+    "bindings": [
+      {
+        "external_name": "coin",
+        "health": 2,
+        "external_path": "config/sprites/coin.json",
+        "has_gravity": false,
+        "is_playable": false,
+        "is_external": true,
+        "name": "coin",
+        "tile": 286
+      },
+      {
+        "is_external": false,
+        "is_playable": false,
+        "name": "question_brick",
+        "tile": 0
+      },
+      {
+        "is_external": false,
+        "is_playable": false,
+        "name": "mushroom",
+        "tile": 216
+      },
+      {
+        "is_external": false,
+        "is_playable": false,
+        "name": "pipe",
+        "tile": 237
+      },
+      {
+        "external_name": "slime",
+        "health": 2,
+        "external_path": "config/sprites/slime.json",
+        "is_playable": false,
+        "is_external": true,
+        "name": "slime",
+        "tile": 43
+      },
+      {
+        "external_name": "goomba",
+        "health": 1,
+        "external_path": "config/sprites/enemies.json",
+        "is_playable": false,
+        "is_external": true,
+        "name": "goomba",
+        "tile": 20
+      },
+      {
+        "external_name": "zombie",
+        "health": 3,
+        "external_path": "config/sprites/zombie.json",
+        "is_playable": false,
+        "is_external": true,
+        "name": "zombie",
+        "tile": 550
+      },
+      {
+        "external_name": "mariosmall",
+        "health": 500,
+        "external_path": "config/sprites/mario.json",
+        "is_external": true,
+        "is_playable": true,
+        "name": "mariosmall",
+        "tile": 552
+      },
+      {
+        "external_name": "herochar",
+        "health": 500,
+        "external_path": "config/sprites/herochar.json",
+        "is_external": true,
+        "is_playable": true,
+        "name": "herochar",
+        "tile": 9999999
+      },
+      {
+        "external_name": "zombie",
+        "health": 500,
+        "external_path": "config/sprites/zombie.json",
+        "is_external": true,
+        "is_playable": true,
+        "name": "zombie",
+        "tile": 9999992
+      }
+    ]
+  },
+  "teleports": [
+    {
+      "from": 0,
+      "to": 0
+    }
+  ],
+  "grid": {
+    "solid": [
+      156,
+      157,
+      183,
+      208,
+      446,
+      447,
+      448
+    ],
+    "empty": [
+      137,
+      164,
+      38,
+      58
+    ],
+    "top_solid": [
+
+    ]
+  }
+}

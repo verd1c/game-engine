@@ -1,0 +1,22 @@
+{
+  "spritesheet": "resources/map/map_one/DirtBrick_Assets_V5.png",
+  "sprites": {
+    "pipe": {
+      "default_animation": "pipe.idle.right",
+      "animations": [
+        {
+          "id": "pipe.idle.right",
+          "animation_frames": [ 0 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 112
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

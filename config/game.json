@@ -1,0 +1,34 @@
+{
+	"window_name": "Super Mario",
+	"resolution": {
+		"width": 640,
+		"height": 480
+	},
+	"fps_limit": 60,
+	"physics": {
+		"gravity": 0.8,
+		"jump_speed": 12,
+		"walk_speed": 1,
+		"run_speed":  2
+	},
+	"maps": [
+		{
+			"cfg": "config/map/first_stage.json"
+		},
+		{
+			"cfg": "config/map/first_map.json"
+		},
+		{
+			"cfg": "config/map/final_map.json"
+		},
+		{
+			"cfg": "config/map/test_map.json"
+		},
+		{
+			"cfg": "config/map/map_one.json"
+		},
+		{
+			"cfg": "config/map/forest.json"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+    "spritesheet": "resources/map/forest/combined.png",
+    "sprites": {
+        "finishsign": {
+            "default_animation": "finishsign.idle.right",
+            "animations": [
+                {
+                    "id": "finishsign.idle.right",
+                    "animation_frames": [ 0 ],
+                    "animation": [
+                        {
+                            "width": 16,
+                            "height": 16,
+                            "x_pos": 1616,
+                            "y_pos": 720
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

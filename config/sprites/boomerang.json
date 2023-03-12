@@ -1,0 +1,241 @@
+{
+  "spritesheet": "resources/sprites/herochar.png",
+  "sprites": {
+    "boomerang": {
+      "default_animation": "boomerang.idle.right",
+      "animations": [
+        {
+          "id": "boomerang.run.right",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 0,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 16,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 32,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 48,
+              "y_pos": 224
+            }
+            
+          ]
+        },
+        {
+          "id": "boomerang.run.left",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 224
+            }
+          ]
+        },
+        {
+          "id": "boomerang.idle.right",
+          "delay": 200,
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 0,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 16,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 32,
+              "y_pos": 224
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 48,
+              "y_pos": 224
+            }
+          ]
+        },
+        {
+          "id": "boomerang.idle.left",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "delay": 200,
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 80
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 80
+            }
+          ]
+        },
+        {
+          "id": "boomerang.attack.sword.right",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 0,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 32,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 64,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 96,
+              "y_pos": 64
+            }
+          ]
+        },
+        {
+          "id": "boomerang.attack.sword",
+          "animation_frames": [ 0, 1, 2, 3 ],
+          "animation": [
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 192,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 160,
+              "y_pos": 64
+            },
+            {
+              "width": 32,
+              "height": 16,
+              "x_pos": 128,
+              "y_pos": 64
+            }
+          ]
+        },
+        {
+          "id": "boomerang.damage.right",
+          "animation_frames": [ 0, 1, 2 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 0,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 16,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 32,
+              "y_pos": 128
+            }
+          ]
+        },
+        {
+          "id": "boomerang.damage.left",
+          "animation_frames": [ 0, 1, 2 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 240,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 224,
+              "y_pos": 128
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 208,
+              "y_pos": 128
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

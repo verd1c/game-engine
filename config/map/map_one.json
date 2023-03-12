@@ -1,0 +1,240 @@
+{
+  "map": [
+    {
+      "type": "ground",
+      "path": "resources/map/map_one/final_map_Ground.csv"
+    },
+    {
+      "type": "front",
+      "path": "resources/map/map_one/final_map_Front.csv"
+    }
+  ],
+  "background": [
+    {
+      "path": "resources/map/map_one/final_map_Sky.csv"
+    },
+    {
+      "path": "resources/map/map_one/final_map_Background.csv"
+    }
+  ],
+  "tiles": {
+    "path": "resources/map/map_one/DirtBrick_Assets_V5.png",
+    "width": 16,
+    "height": 16
+  },
+  "sprites": {
+    "path": "config/sprites/sprites.json"
+  },
+  "objects": {
+    "path": "resources/map/map_one/final_map_Objects.csv",
+    "bindings": [
+      {
+        "external_name": "coin",
+        "health": 2,
+        "external_path": "config/sprites/coin.json",
+        "has_gravity": false,
+        "is_playable": false,
+        "is_external": true,
+        "name": "coin",
+        "tile": 52
+      },
+      {
+        "is_external": false,
+        "is_playable": false,
+        "name": "question_brick",
+        "tile": 280
+      },
+      {
+        "is_external": false,
+        "is_playable": false,
+        "name": "breakable_box",
+        "tile": 109
+      },
+      {
+        "is_external": false,
+        "is_playable": false,
+        "name": "mushroom",
+        "tile": 70
+      },
+      {
+        "external_name": "slime",
+        "health": 2,
+        "external_path": "config/sprites/slime.json",
+        "is_playable": false,
+        "has_gravity": true,
+        "is_external": true,
+        "name": "slime",
+        "tile": 91
+      },
+      {
+        "external_name": "flag",
+        "health": 2,
+        "external_path": "config/sprites/flag.json",
+        "is_playable": false,
+        "has_gravity": false,
+        "is_external": true,
+        "name": "flag",
+        "tile": 19
+      },
+      {
+        "external_name": "death",
+        "health": 2,
+        "external_path": "config/sprites/death.json",
+        "is_playable": false,
+        "is_external": true,
+        "has_gravity": false,
+        "name": "death",
+        "tile": 11
+      },
+      {
+        "external_name": "pipe",
+        "health": 1,
+        "external_path": "config/sprites/pipe.json",
+        "is_external": true,
+        "has_gravity": false,
+        "is_playable": false,
+        "name": "pipe",
+        "tile": 236
+      },
+      {
+        "external_name": "goomba",
+        "health": 1,
+        "external_path": "config/sprites/enemies.json",
+        "is_playable": false,
+        "has_gravity": true,
+        "is_external": true,
+        "name": "goomba",
+        "tile": 95
+      },
+      {
+        "external_name": "zombie",
+        "health": 3,
+        "external_path": "config/sprites/zombie.json",
+        "is_playable": false,
+        "has_gravity": true,
+        "is_external": true,
+        "name": "zombie",
+        "tile": 90
+      },
+      {
+        "external_name": "mariosmall",
+        "health": 20,
+        "external_path": "config/sprites/mario.json",
+        "is_external": true,
+        "is_playable": true,
+        "has_gravity": true,
+        "name": "mariosmall",
+        "tile": 89
+      },
+      {
+        "external_name": "chest",
+        "health": 500,
+        "external_path": "config/sprites/chest.json",
+        "is_external": true,
+        "is_playable": false,
+        "has_gravity": false,
+        "name": "chest",
+        "tile": 129
+      },
+      {
+        "external_name": "herochar",
+        "health": 500,
+        "external_path": "config/sprites/herochar.json",
+        "is_external": true,
+        "is_playable": true,
+        "has_gravity": true,
+        "name": "herochar",
+        "tile": 9999999
+      },
+      {
+        "external_name": "zombie",
+        "health": 500,
+        "external_path": "config/sprites/zombie.json",
+        "is_external": true,
+        "has_gravity": true,
+        "is_playable": true,
+        "name": "zombie",
+        "tile": 9999992
+      }
+    ]
+  },
+  "grid": {
+    "solid": [
+      80,
+      81,
+      82,
+      83,
+      86,
+      100,
+      102,
+      103,
+      106,
+      102,
+      121,
+      122,
+      123,
+      126,
+      127,
+      146,
+      147,
+      143,
+      0,
+      1,
+      2,
+      3,
+      6,
+      20,
+      21,
+      22,
+      23,
+      26,
+      28,
+      29,
+      30,
+      31,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      60,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      75,
+      76,
+      77,
+      78,
+      88,
+      108,
+      128,
+      180,
+      181,
+      200,
+      201,
+      236,
+      237,
+      256,
+      257,
+      231,
+      232,
+      251,
+      252
+    ],
+    "empty": [
+      137,
+      164,
+      38,
+      58
+    ],
+    "top_solid": [
+      282
+    ]
+  }
+}

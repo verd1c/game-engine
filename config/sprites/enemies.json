@@ -1,0 +1,275 @@
+{
+  "spritesheet": "resources/sprites/enemies.png",
+  "sprites": {
+    "turtle": {
+      "default_animation": "turtle.run.left",
+      "animations": [
+        {
+          "id": "turtle.run.left",
+          "animation": [
+            {
+              "width": 16,
+              "height": 23,
+              "x_pos": 212,
+              "y_pos": 58
+            },
+            {
+              "width": 16,
+              "height": 23,
+              "x_pos": 242,
+              "y_pos": 58
+            }
+          ]
+        },
+        {
+          "id": "turtle.run.right",
+          "animation": [
+            {
+              "width": 16,
+              "height": 23,
+              "x_pos": 179,
+              "y_pos": 28
+            },
+            {
+              "width": 16,
+              "height": 23,
+              "x_pos": 209,
+              "y_pos": 28
+            }
+          ]
+        },
+        {
+          "id": "turtle.wings.left",
+          "animation": [
+            {
+              "width": 16,
+              "height": 23,
+              "x_pos": 182,
+              "y_pos": 58
+            }
+          ]
+        },
+        {
+          "id": "turtle.wings.right",
+          "animation": [
+            {
+              "width": 16,
+              "height": 23,
+              "x_pos": 239,
+              "y_pos": 28
+            }
+          ]
+        },
+        {
+          "id": "turtle.death",
+          "animation_frames": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 182,
+              "y_pos": 60
+            }
+          ]
+        },
+        {
+          "id": "turtle.damage.right",
+          "animation_frames": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 182,
+              "y_pos": 60
+            }
+          ]
+        },
+        {
+          "id": "turtle.damage.left",
+          "animation_frames": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 32,
+              "x_pos": 182,
+              "y_pos": 60
+            }
+          ]
+        }
+      ]
+    },
+    "goomba": {
+      "default_animation": "goomba.run.left",
+      "animations": [
+        {
+          "id": "goomba.run.left",
+          "animation_frames": [ 0, 1 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 6,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 38,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "goomba.run.right",
+          "animation_frames": [ 0, 1 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 6,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 38,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "goomba.idle.right",
+          "animation_frames": [ 0, 1 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 6,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 38,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "goomba.idle.left",
+          "animation_frames": [ 0, 1 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 6,
+              "y_pos": 0
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 38,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "goomba.death",
+          "animation_frames": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 182,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "goomba.damage.right",
+          "animation_frames": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 182,
+              "y_pos": 0
+            }
+          ]
+        },
+        {
+          "id": "goomba.damage.left",
+          "animation_frames": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 182,
+              "y_pos": 0
+            }
+          ]
+        }
+      ]
+    },
+    "piranha": {
+      "default_animation": "piranha.closed",
+      "animations": [
+        {
+          "id": "piranha.closed",
+          "animation": [
+            {
+              "width": 16,
+              "height": 24,
+              "x_pos": 126,
+              "y_pos": 141
+            }
+          ]
+        },
+        {
+          "id": "piranha.open",
+          "animation": [
+            {
+              "width": 16,
+              "height": 24,
+              "x_pos": 126,
+              "y_pos": 169
+            }
+          ]
+        }
+      ]
+    },
+    "bird": {
+      "default_animation": "bird.left",
+      "animations": [
+        {
+          "id": "bird.left",
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 98,
+              "y_pos": 114
+            },
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 127,
+              "y_pos": 114
+            }
+          ]
+        },
+        {
+          "id": "bird.right",
+          "animation": [
+            {
+              "width": 16,
+              "height": 16,
+              "x_pos": 158,
+              "y_pos": 114
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

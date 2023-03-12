@@ -1,0 +1,22 @@
+{
+    "spritesheet": "resources/map/forest/combined.png",
+    "sprites": {
+        "ladder": {
+            "default_animation": "ladder.idle.right",
+            "animations": [
+                {
+                    "id": "ladder.idle.right",
+                    "animation_frames": [ 0 ],
+                    "animation": [
+                        {
+                            "width": 16,
+                            "height": 80,
+                            "x_pos": 1600,
+                            "y_pos": 720
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

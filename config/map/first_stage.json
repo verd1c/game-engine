@@ -1,0 +1,30 @@
+{
+  "map": [
+    {
+      "path": "resources/map/first_stage_Background.csv"
+    },
+    {
+      "path": "resources/map/first_stage_Foreground.csv"
+    },
+    {
+      "path": "resources/map/first_stage_Clouds.csv"
+    },
+    {
+      "path": "resources/map/first_stage_Blocks.csv"
+    },
+    {
+      "path": "resources/map/first_stage_Sea.csv"
+    },
+    {
+      "path": "resources/map/first_stage_Castle.csv"
+    },
+    {
+      "path": "resources/map/first_stage_Coins.csv"
+    }
+  ],
+  "tiles": {
+    "path": "resources/map/super_mario_sprite_sheet.png",
+    "width": 16,
+    "height": 16
+  }
+}

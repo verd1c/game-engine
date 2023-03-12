@@ -1,0 +1,8 @@
+{
+    "initial_player_lives": 1,
+    "invisible_mario_duration":5,
+    "ooba_looba_stun_time": 3,
+    "available_time": 120,
+    "coins_to_gain_life": 10,
+    "backgrounsd_music": "config/sound.mp3"
+}
