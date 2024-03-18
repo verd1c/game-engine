@@ -4,6 +4,8 @@
 #include <allegro5/allegro.h>
 #include "tools/csv_parser.h"
 
+using namespace std;
+
 
 CSVParser::CSVParser(ifstream f) {
 	this->bitmap = NULL;

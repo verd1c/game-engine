@@ -4,9 +4,9 @@
 #include "display/DisplayTools.h"
 #include "engine/Game.h"
 
-#include "engine/Animations/AnimatorManager.h"
-#include "game/audio.h"
-#include "engine/Animations/SystemClock.h"
+#include "engine/animations/AnimatorManager.h"
+#include "game/Audio.h"
+#include "engine/animations/SystemClock.h"
 void Game::InputHandler(void) {
 	ALLEGRO_EVENT events;
 	al_wait_for_event(event_queue, &events);

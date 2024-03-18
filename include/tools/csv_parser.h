@@ -5,8 +5,6 @@
 #include <fstream>
 #include <string>
 #include <allegro5/allegro.h>
-using namespace std;
-
 typedef ALLEGRO_BITMAP Bitmap;
 
 class CSVParser {
@@ -16,10 +14,10 @@ private:
 
 	Bitmap* bitmap;
 public:
-	CSVParser(ifstream f);
+	CSVParser(std::ifstream f);
 	CSVParser();
-	Bitmap* CsvFileToBitmap(string file);
-	ifstream get_file(string file);
+	Bitmap* CsvFileToBitmap(std::string file);
+	std::ifstream get_file(std::string file);
 
 	int GetWidth();
 	int GetHeight();

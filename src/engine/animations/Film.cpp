@@ -34,7 +34,7 @@ void Film::SetBitmap(Bitmap* bBitmap)
 void Film::DisplayFrame(Bitmap* bDest, Point at, int frameNo)
 {
 	Rect r = GetFrameBox(frameNo);
-	Blit(bDest, (Rect&)Rect(at.x, at.y, r.w, r.h), this->bBitmap, r);
+	Blit(bDest, Rect(at.x, at.y, r.w, r.h), this->bBitmap, r);
 }
 
 Film::Film(std::string id) :

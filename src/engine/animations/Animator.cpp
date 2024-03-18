@@ -1,4 +1,3 @@
-#pragma once 
 
 #include "engine/animations/Animator.h"
 #include "engine/animations/AnimatorManager.h"

@@ -19,26 +19,26 @@ void Game::RenderHandler(void) {
 
 	al_set_target_backbuffer(display);
 
-	BlitNoRefresh(display, (Rect&)Rect { 0, 0, 640, 480 }, this->mMap->GetBackgroundLayer()->GetBuffer(), (Rect&)Rect { (int)floor(0.5 * vw.x), vw.y, vw.w, vw.h });
-	BlitNoRefresh(display, (Rect&)Rect { 0, 0, 640, 480 }, this->mMap->GetTileLayer()->GetBuffer(), vw);
+	BlitNoRefresh(display, Rect { 0, 0, 640, 480 }, this->mMap->GetBackgroundLayer()->GetBuffer(), Rect { (int)floor(0.5 * vw.x), vw.y, vw.w, vw.h });
+	BlitNoRefresh(display, Rect { 0, 0, 640, 480 }, this->mMap->GetTileLayer()->GetBuffer(), vw);
 
 	for (auto obj : SpriteManager::GetSingleton().GetDisplayList()) {
 		Rect sb = obj->GetBox();
 	/*	Blit(
 			dest,
-			(Rect&)displayArea,
+			displayArea,
 			this->currFilm->GetBitmap(),
-			(Rect&)this->currFilm->GetFrameBox(this->frameNo)
+			this->currFilm->GetFrameBox(this->frameNo)
 		);*/
 
 		if (obj->currFilm != nullptr && obj->currFilm->GetTotalFrames() > 0) {
 			//al_set_target_bitmap(obj->currFilm->GetBitmap());
 			//al_draw_rotated_bitmap(obj->currFilm->GetBitmap(), 8, 8, 16, 16, 3.14159265358979323846 / 4, 0);
 			//al_set_target_backbuffer(display);
-			BlitNoRefresh(display, (Rect&)Rect { sb.x - vw.x, sb.y - vw.y, sb.w, sb.h }, obj->currFilm->GetBitmap(), (Rect&)obj->currFilm->GetFrameBox(obj->frameNo));
+			BlitNoRefresh(display, Rect { sb.x - vw.x, sb.y - vw.y, sb.w, sb.h }, obj->currFilm->GetBitmap(), obj->currFilm->GetFrameBox(obj->frameNo));
 		}
 		else {
-			BlitNoRefresh(display, (Rect&)Rect { sb.x - vw.x, sb.y - vw.y, sb.w, sb.h }, obj->getBitamp(), (Rect&)Rect {0, 0, 16, 16});
+			BlitNoRefresh(display, Rect { sb.x - vw.x, sb.y - vw.y, sb.w, sb.h }, obj->getBitamp(), Rect {0, 0, 16, 16});
 		}
 	}
 	al_flip_display();

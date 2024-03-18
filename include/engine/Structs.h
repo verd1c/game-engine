@@ -4,7 +4,6 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_image.h>
 #include <allegro5/allegro_font.h>
-#include <windows.h>
 #include <algorithm>
 #include <vector>
 #include <list>
@@ -43,10 +42,10 @@ public:
 
 typedef struct Settings {
 
-	INT lWindowWidth, lWindowHeight;
-	SHORT lFpsLimit;
-	SHORT lJumpSpeed;
-	FLOAT fGravity;
+	int lWindowWidth, lWindowHeight;
+	short lFpsLimit;
+	short lJumpSpeed;
+	float fGravity;
 } Settings;
 
 extern Settings gGameSettings;

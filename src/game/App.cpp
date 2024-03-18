@@ -8,10 +8,10 @@
 
 #include <allegro5/allegro_audio.h>
 #include <allegro5/allegro_acodec.h>
-#include "engine/Animations/Animation.h"
-#include "engine/Animations/Animator.h"
-#include "engine/Animations/AnimatorManager.h"
-#include "engine/Animations/SystemClock.h"
+#include "engine/animations/Animation.h"
+#include "engine/animations/Animator.h"
+#include "engine/animations/AnimatorManager.h"
+#include "engine/animations/SystemClock.h"
 
 
 void SuperMario::Initialise(void) {

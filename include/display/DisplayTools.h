@@ -10,12 +10,12 @@ void Blit(ALLEGRO_DISPLAY *dest, unsigned int destX, unsigned int destY, Bitmap 
 
 
 
-void Blit(Bitmap* dDest, Rect& rDest, Bitmap* dSrc, Rect& rSrc);
+void Blit(Bitmap* dDest, const Rect& rDest, Bitmap* dSrc, const Rect& rSrc);
 void Blit(Display* dest, const Rect& rDest, Bitmap* src, const Rect& rSrc);
 
 
-void BlitNoRefresh(Display* dDest, Rect& rDest, Bitmap* src, Rect& rSrc);
-void BlitNoRefreshRotated(Display* dDest, Rect& rDest, Bitmap* src, Rect& rSrc);
+void BlitNoRefresh(Display* dDest, const Rect& rDest, Bitmap* src, const Rect& rSrc);
+void BlitNoRefreshRotated(Display* dDest, const Rect& rDest, Bitmap* src, const Rect& rSrc);
 void RefreshDisplay(Display *dDest);
 
 

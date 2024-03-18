@@ -25,16 +25,16 @@ void Blit(Display* dest, const Rect& rDest, Bitmap* src, const Rect& rSrc) {
 	return;
 }
 
-void BlitNoRefresh(Display* dDest, Rect& rDest, Bitmap* src, Rect& rSrc) {
+void BlitNoRefresh(Display* dDest, const Rect& rDest, Bitmap* src, const Rect& rSrc) {
 	al_draw_bitmap_region(src, rSrc.x, rSrc.y, rSrc.w, rSrc.h, rDest.x, rDest.y, 0);
 }
 
-void BlitNoRefreshRotated(Display* dDest, Rect& rDest, Bitmap* src, Rect& rSrc) {
+void BlitNoRefreshRotated(Display* dDest, const Rect& rDest, Bitmap* src, const Rect& rSrc) {
 	al_draw_bitmap_region(src, rSrc.x, rSrc.y, rSrc.w, rSrc.h, rDest.x, rDest.y, 0);
 }
 
-void Blit(Bitmap *dDest, Rect& rDest,
-		Bitmap *dSrc, Rect& rSrc)
+void Blit(Bitmap *dDest, const Rect& rDest,
+		Bitmap *dSrc, const Rect& rSrc)
 {
 	al_set_target_bitmap(dDest);
 	al_draw_bitmap_region(dSrc, rSrc.x, rSrc.y, rSrc.w, rSrc.h, rDest.x, rDest.y, 0);

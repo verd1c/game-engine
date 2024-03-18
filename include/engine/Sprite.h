@@ -181,7 +181,7 @@ public:
 
 class Clipper {
 public:
-	using View = std::function<const Rect& (void)>;
+	using View = std::function<Rect (void)>;
 private:
 	View view;
 public:

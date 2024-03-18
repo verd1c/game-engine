@@ -1,5 +1,5 @@
 {
-  "spritesheet": "resources/sprites/zombie.png",
+  "spritesheet": "resources/sprites/Zombie.png",
   "sprites": {
     "zombie": {
       "default_animation": "zombie.run.right",
